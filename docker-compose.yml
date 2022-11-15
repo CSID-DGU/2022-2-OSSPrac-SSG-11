@@ -1,0 +1,7 @@
+version: "3.0"
+
+services:
+  student_information:
+    build: .
+    ports:
+      - 80:80
